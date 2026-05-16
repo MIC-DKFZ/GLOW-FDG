@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="4000"
+   height="4000"
+   viewBox="0 0 1400 1400"
+   version="1.1"
+   xmlns="http://www.w3.org/2000/svg">
+
+  <rect width="100%" height="100%" fill="#ffffff"/>
+
+  <defs>
+    <linearGradient id="ringGrad" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#4d15d8"/>
+      <stop offset="45%" stop-color="#d01ca7"/>
+      <stop offset="72%" stop-color="#ff4d4f"/>
+      <stop offset="100%" stop-color="#ffad1f"/>
+    </linearGradient>
+
+    <linearGradient id="textGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#4d15d8"/>
+      <stop offset="38%" stop-color="#ff2e7a"/>
+      <stop offset="70%" stop-color="#ff7b21"/>
+      <stop offset="100%" stop-color="#ffb11f"/>
+    </linearGradient>
+
+    <clipPath id="scanClip">
+      <circle cx="700" cy="540" r="280"/>
+    </clipPath>
+
+    <clipPath id="leftHalf">
+      <rect x="420" y="260" width="280" height="560"/>
+    </clipPath>
+
+    <clipPath id="rightHalf">
+      <rect x="700" y="260" width="280" height="560"/>
+    </clipPath>
+
+    <style>
+      .sans {
+        font-family: "Avenir Next", "Montserrat", "Segoe UI", Arial, Helvetica, sans-serif;
+      }
+    </style>
+  </defs>
+
+  <g transform="translate(700,540) scale(1.12) translate(-700,-540)">
+    <circle cx="700" cy="540" r="360"
+      fill="none"
+      stroke="url(#ringGrad)"
+      stroke-width="86"
+      stroke-linecap="round"
+      stroke-dasharray="1780 260"
+      transform="rotate(42 700 540)"/>
+
+    <circle cx="700" cy="540" r="280" fill="#0b0b0f"/>
+
+    <g clip-path="url(#scanClip)">
+      <g clip-path="url(#leftHalf)">
+        <rect x="420" y="260" width="280" height="560" fill="#16080a"/>
+        <ellipse cx="620" cy="545" rx="215" ry="195" fill="#4d1218" opacity="0.96"/>
+        <ellipse cx="640" cy="545" rx="180" ry="165" fill="#b33442" opacity="0.72"/>
+        <ellipse cx="635" cy="530" rx="140" ry="130" fill="#2a070a" opacity="0.92"/>
+        <ellipse cx="628" cy="532" rx="96" ry="90" fill="#090204" opacity="0.96"/>
+      </g>
+
+      <g clip-path="url(#rightHalf)">
+        <rect x="700" y="260" width="280" height="560" fill="#071a4b"/>
+        <ellipse cx="780" cy="545" rx="215" ry="195" fill="#1b377d" opacity="0.98"/>
+        <ellipse cx="760" cy="545" rx="180" ry="165" fill="#8da9df" opacity="0.62"/>
+        <ellipse cx="765" cy="530" rx="140" ry="130" fill="#2c4f9a" opacity="0.88"/>
+        <ellipse cx="772" cy="532" rx="96" ry="90" fill="#03112d" opacity="0.97"/>
+      </g>
+
+      <circle cx="585" cy="418" r="34" fill="#ff8a3d" opacity="0.96"/>
+      <circle cx="812" cy="598" r="26" fill="#6d63ff" opacity="0.95"/>
+      <circle cx="600" cy="655" r="30" fill="#ff4d5a" opacity="0.92"/>
+    </g>
+  </g>
+
+  <text x="700" y="1120"
+     class="sans"
+     font-size="120"
+     font-weight="700"
+     letter-spacing="1"
+     text-anchor="middle"
+     fill="url(#textGrad)">
+    GLOW-FDG
+  </text>
+
+  <text x="700" y="1190"
+     class="sans"
+     font-size="30"
+     font-weight="600"
+     letter-spacing="6"
+     text-anchor="middle"
+     fill="#000000">
+    FDG-PET/CT SEGMENTATION MODEL
+  </text>
+</svg>
