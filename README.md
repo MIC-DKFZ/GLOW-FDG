@@ -1,5 +1,7 @@
 # GLOW-FDG
 
+![GLOW-FDG logo](logo.jpg)
+
 **GLOW-FDG** is an open-source AI model for whole-body cancer lesion segmentation in  
 **<sup>18</sup>F-FDG PET/CT**.
 
@@ -20,6 +22,10 @@ The model was trained on **1,563 FDG-PET/CT scans** spanning multiple cancer typ
 - Validated on independent external cohorts
 - Built on the nnU-Net framework with a ResEncL U-Net architecture
 - Uses multitask organ supervision to reduce physiologic uptake false positives
+
+## Model Weights
+
+Model weights are available on Hugging Face: [mrokuss/GLOW-FDG](https://huggingface.co/mrokuss/GLOW-FDG)
 
 ## Intended Use
 
