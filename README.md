@@ -1,6 +1,6 @@
 # GLOW-FDG
 
-![GLOW-FDG logo](GLOW-FDG/logo.jpg)
+<img src="logo.jpg" width="400" alt="GLOW-FDG logo">
 
 **GLOW-FDG** is an open-source AI model for whole-body cancer lesion segmentation in  
 **<sup>18</sup>F-FDG PET/CT**.
